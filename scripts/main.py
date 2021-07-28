@@ -11,17 +11,17 @@ from sklearn import preprocessing
 #Read in store dataset
 
 logging.basicConfig(level=logging.INFO)
-store=pd.read_csv('../data/store.csv')
+store = pd.read_csv('C:/Users/DESMOND/sales-prediction/data/store.csv')
 
 
 #Read in test dataset
-test=store_data=pd.read_csv('../data/test.csv')
+test=store_data=pd.read_csv('C:/Users/DESMOND/sales-prediction/data/test.csv')
 
 #Read in train dataset
-train=store_data=pd.read_csv('../data/train.csv')
+train=store_data=pd.read_csv('C:/Users/DESMOND/sales-prediction/data/train.csv')
 
 #Read in sample submission dataset
-sample_submission=store_data=pd.read_csv('../data/sample_submission.csv')
+sample_submission=store_data=pd.read_csv('C:/Users/DESMOND/sales-prediction/data/sample_submission.csv')
 
 train.shape, test.shape, store.shape
 
@@ -37,7 +37,7 @@ def joinDF(df1,df2):
 
 
 if __name__ == '__main__':
-    mlflow.set_experiment(experiment_name='Exploratoy')
+    mlflow.set_experiment(experiment_name='EDA')
     store_columns = store.columns
     mlflow.log_param("Store columns", store_columns)
     train_columns = train.columns

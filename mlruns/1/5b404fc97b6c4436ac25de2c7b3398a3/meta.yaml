@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DESMOND/sales-prediction/mlruns/1/5b404fc97b6c4436ac25de2c7b3398a3/artifacts
+end_time: 1627490839105
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 5b404fc97b6c4436ac25de2c7b3398a3
+run_uuid: 5b404fc97b6c4436ac25de2c7b3398a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627490832226
+status: 3
+tags: []
+user_id: DESMOND
