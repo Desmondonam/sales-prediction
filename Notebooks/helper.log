@@ -1,0 +1,6 @@
+2021-07-28 22:45:13,320 : INFO : app_logger : file read as csv from ../data/train.csv
+2021-07-28 22:45:13,320 : INFO : app_logger : file read as csv from ../data/train.csv
+2021-07-28 22:45:13,359 : INFO : app_logger : file read as csv from ../data/store.csv
+2021-07-28 22:45:13,359 : INFO : app_logger : file read as csv from ../data/store.csv
+2021-07-28 22:45:13,560 : INFO : app_logger : file read as csv from ../data/test.csv
+2021-07-28 22:45:13,560 : INFO : app_logger : file read as csv from ../data/test.csv
