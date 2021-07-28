@@ -1,13 +1,9 @@
-  
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
 import pickle
 import dvc.api
 from app_logger import App_Logger
-
-from app_logger import App_Logger
-helper = Helper()
 
 
 app_logger = App_Logger("helper.log").get_app_logger()
@@ -50,7 +46,7 @@ class Helper:
 
         return df
 
-    def get_data(tag, path='Data/clean_data.csv', repo='https://github.com/Desmondonam/sales-prediction'):
+    def get_data(tag, path='data/data.csv', repo='https://github.com/Desmondonam/sales-prediction'):
         rev = tag
         data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
         df = pd.read_csv(data_url)
